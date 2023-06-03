@@ -11,13 +11,13 @@
         <meta content="Admin Dashboard" name="description" />
         <meta content="Themesbrand" name="author" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <link rel="shortcut icon" href="assets/images/favicon.ico">
+        <link rel="shortcut icon" href="{{asset('admin/assets/images/favicon.ico')}}">
 <!--Morris Chart CSS -->
-<link rel="stylesheet" href="assets/plugins/morris/morris.css">
+<link rel="stylesheet" href="{{asset('admin/assets/plugins/morris/morris.css')}}}}">
 <!-- Basic Css files -->
-<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-<link href="assets/css/icons.css" rel="stylesheet" type="text/css">
-<link href="assets/css/style.css" rel="stylesheet" type="text/css">
+<link href="{{asset('admin/assets/css/bootstrap.min.css')}}')}}" rel="stylesheet" type="text/css}}">
+<link href="{{asset('admin/assets/css/icons.css')}}" rel="stylesheet" type="text/css">
+<link href="{{asset('admin/assets/css/style.css')}}" rel="stylesheet" type="text/css">
     </head>
 <body class="fixed-left">
     <!-- Loader -->
@@ -29,8 +29,7 @@
 <!-- LOGO -->
 <div class="topbar-left">
     <div class="">
-        <!--<a href="index" class="logo text-center">Admiria</a>-->
-        <a href="index-2.html" class="logo"><img src="assets/images/logo-sm.png" height="36" alt="logo"></a>
+        <a href="{{asset('admin/index-2.html" class="logo"><img src="assets/images/logo-sm.png" height="36" alt="logo"></a>
     </div>
 </div>
 <div class="sidebar-inner slimscrollleft">
@@ -38,175 +37,175 @@
         <ul>
             <li class="menu-title">Main </li>
             <li class="has_sub">
-                <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-view-dashboard"></i> <span>  Dashboard <span class="badge badge-pill badge-primary pull-right">20+</span></span> </a>
+                <a href="{{asset('admin/javascript:void(0);" class="waves-effect"><i class="mdi mdi-view-dashboard"></i> <span>  Dashboard <span class="badge badge-pill badge-primary pull-right">20+</span></span> </a>
                 <ul class="list-unstyled">
-                    <li><a href="index-2.html">Dashboard One</a></li>
-                    <li><a href="dashboard-2.html">Dashboard Two</a></li>
+                    <li><a href="{{asset('admin/index-2.html">Dashboard One</a></li>
+                    <li><a href="{{asset('admin/dashboard-2.html">Dashboard Two</a></li>
                 </ul>
             </li>
 
             <li>
-                <a href="widgets.html" class="waves-effect"><i class="mdi mdi-cube-outline"></i><span> Widgets </span></a>
+                <a href="{{asset('admin/widgets.html" class="waves-effect"><i class="mdi mdi-cube-outline"></i><span> Widgets </span></a>
             </li>
 
             <li class="has_sub">
-                <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-email-outline"></i><span> Email <span class="pull-right"><i class="mdi mdi-chevron-right"></i></span> </span></a>
+                <a href="{{asset('admin/javascript:void(0);" class="waves-effect"><i class="mdi mdi-email-outline"></i><span> Email <span class="pull-right"><i class="mdi mdi-chevron-right"></i></span> </span></a>
                 <ul class="list-unstyled">
-                    <li><a href="email-inbox.html">Inbox</a></li>
-                    <li><a href="email-read.html">Email Read</a></li>
-                    <li><a href="email-compose.html">Email Compose</a></li>
+                    <li><a href="{{asset('admin/email-inbox.html">Inbox</a></li>
+                    <li><a href="{{asset('admin/email-read.html">Email Read</a></li>
+                    <li><a href="{{asset('admin/email-compose.html">Email Compose</a></li>
                 </ul>
             </li>
             <li>
-                <a href="calendar.html" class="waves-effect"><i class="mdi mdi-calendar-check"></i><span> Calendar </span></a>
+                <a href="{{asset('admin/calendar.html" class="waves-effect"><i class="mdi mdi-calendar-check"></i><span> Calendar </span></a>
             </li>
             <li class="menu-title">Components</li>
             <li class="has_sub">
-                <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-buffer"></i> <span> User Interface <span class="pull-right"><i class="mdi mdi-chevron-right"></i></span> </span> </a>
+                <a href="{{asset('admin/javascript:void(0);" class="waves-effect"><i class="mdi mdi-buffer"></i> <span> User Interface <span class="pull-right"><i class="mdi mdi-chevron-right"></i></span> </span> </a>
                 <ul class="list-unstyled">
-                    <li><a href="ui-buttons.html">Buttons</a></li>
-                    <li><a href="ui-colors.html">Colors</a></li>
-                    <li><a href="ui-cards.html">Cards</a></li>
-                    <li><a href="ui-tabs-accordions.html">Tabs &amp; Accordions</a></li>
-                    <li><a href="ui-modals.html">Modals</a></li>
-                    <li><a href="ui-images.html">Images</a></li>
-                    <li><a href="ui-alerts.html">Alerts</a></li>
-                    <li><a href="ui-progressbars.html">Progress Bars</a></li>
-                    <li><a href="ui-dropdowns.html">Dropdowns</a></li>
-                    <li><a href="ui-lightbox.html">Lightbox</a></li>
-                    <li><a href="ui-navs.html">Navs</a></li>
-                    <li><a href="ui-pagination.html">Pagination</a></li>
-                    <li><a href="ui-popover-tooltips.html">Popover & Tooltips</a></li>
-                    <li><a href="ui-badge.html">Badge</a></li>
-                    <li><a href="ui-carousel.html">Carousel</a></li>
-                    <li><a href="ui-video.html">Video</a></li>
-                    <li><a href="ui-typography.html">Typography</a></li>
-                    <li><a href="ui-sweet-alert.html">Sweet-Alert</a></li>
-                    <li><a href="ui-grid.html">Grid</a></li>
-                    <li><a href="ui-animation.html">Animation</a></li>
-                    <li><a href="ui-highlight.html">Highlight</a></li>
-                    <li><a href="ui-rating.html">Rating</a></li>
-                    <li><a href="ui-nestable.html">Nestable</a></li>
-                    <li><a href="ui-alertify.html">Alertify</a></li>
-                    <li><a href="ui-rangeslider.html">Range Slider</a></li>
-                    <li><a href="ui-sessiontimeout.html">Session Timeout</a></li>
+                    <li><a href="{{asset('admin/ui-buttons.html">Buttons</a></li>
+                    <li><a href="{{asset('admin/ui-colors.html">Colors</a></li>
+                    <li><a href="{{asset('admin/ui-cards.html">Cards</a></li>
+                    <li><a href="{{asset('admin/ui-tabs-accordions.html">Tabs &amp; Accordions</a></li>
+                    <li><a href="{{asset('admin/ui-modals.html">Modals</a></li>
+                    <li><a href="{{asset('admin/ui-images.html">Images</a></li>
+                    <li><a href="{{asset('admin/ui-alerts.html">Alerts</a></li>
+                    <li><a href="{{asset('admin/ui-progressbars.html">Progress Bars</a></li>
+                    <li><a href="{{asset('admin/ui-dropdowns.html">Dropdowns</a></li>
+                    <li><a href="{{asset('admin/ui-lightbox.html">Lightbox</a></li>
+                    <li><a href="{{asset('admin/ui-navs.html">Navs</a></li>
+                    <li><a href="{{asset('admin/ui-pagination.html">Pagination</a></li>
+                    <li><a href="{{asset('admin/ui-popover-tooltips.html">Popover & Tooltips</a></li>
+                    <li><a href="{{asset('admin/ui-badge.html">Badge</a></li>
+                    <li><a href="{{asset('admin/ui-carousel.html">Carousel</a></li>
+                    <li><a href="{{asset('admin/ui-video.html">Video</a></li>
+                    <li><a href="{{asset('admin/ui-typography.html">Typography</a></li>
+                    <li><a href="{{asset('admin/ui-sweet-alert.html">Sweet-Alert</a></li>
+                    <li><a href="{{asset('admin/ui-grid.html">Grid</a></li>
+                    <li><a href="{{asset('admin/ui-animation.html">Animation</a></li>
+                    <li><a href="{{asset('admin/ui-highlight.html">Highlight</a></li>
+                    <li><a href="{{asset('admin/ui-rating.html">Rating</a></li>
+                    <li><a href="{{asset('admin/ui-nestable.html">Nestable</a></li>
+                    <li><a href="{{asset('admin/ui-alertify.html">Alertify</a></li>
+                    <li><a href="{{asset('admin/ui-rangeslider.html">Range Slider</a></li>
+                    <li><a href="{{asset('admin/ui-sessiontimeout.html">Session Timeout</a></li>
                 </ul>
             </li>
             <li class="has_sub">
-                <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-clipboard-outline"></i><span> Forms <span class="badge badge-pill badge-success pull-right">9</span> </span></a>
+                <a href="{{asset('admin/javascript:void(0);" class="waves-effect"><i class="mdi mdi-clipboard-outline"></i><span> Forms <span class="badge badge-pill badge-success pull-right">9</span> </span></a>
                 <ul class="list-unstyled">
-                    <li><a href="form-elements.html">Form Elements</a></li>
-                    <li><a href="form-validation.html">Form Validation</a></li>
-                    <li><a href="form-advanced.html">Form Advanced</a></li>
-                    <li><a href="form-wizard.html">Form Wizard</a></li>
-                    <li><a href="form-editors.html">Form Editors</a></li>
-                    <li><a href="form-uploads.html">Form File Upload</a></li>
-                    <li><a href="form-mask.html">Form Mask</a></li>
-                    <li><a href="form-summernote.html">Summernote</a></li>
-                    <li><a href="form-xeditable.html">Form Xeditable</a></li>
+                    <li><a href="{{asset('admin/form-elements.html">Form Elements</a></li>
+                    <li><a href="{{asset('admin/form-validation.html">Form Validation</a></li>
+                    <li><a href="{{asset('admin/form-advanced.html">Form Advanced</a></li>
+                    <li><a href="{{asset('admin/form-wizard.html">Form Wizard</a></li>
+                    <li><a href="{{asset('admin/form-editors.html">Form Editors</a></li>
+                    <li><a href="{{asset('admin/form-uploads.html">Form File Upload</a></li>
+                    <li><a href="{{asset('admin/form-mask.html">Form Mask</a></li>
+                    <li><a href="{{asset('admin/form-summernote.html">Summernote</a></li>
+                    <li><a href="{{asset('admin/form-xeditable.html">Form Xeditable</a></li>
                 </ul>
             </li>
             <li class="has_sub">
-                <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-chart-line"></i><span> Charts <span class="pull-right"><i class="mdi mdi-chevron-right"></i></span> </span></a>
+                <a href="{{asset('admin/javascript:void(0);" class="waves-effect"><i class="mdi mdi-chart-line"></i><span> Charts <span class="pull-right"><i class="mdi mdi-chevron-right"></i></span> </span></a>
                 <ul class="list-unstyled">
-                    <li><a href="charts-morris.html">Morris Chart</a></li>
-                    <li><a href="charts-chartist.html">Chartist Chart</a></li>
-                    <li><a href="charts-chartjs.html">Chartjs Chart</a></li>
-                    <li><a href="charts-flot.html">Flot Chart</a></li>
-                    <li><a href="charts-c3.html">C3 Chart</a></li>
-                    <li><a href="charts-sparkline.html">Sparkline Chart</a></li>
-                    <li><a href="charts-other.html">Jquery Knob Chart</a></li>
-                    <li><a href="charts-peity.html">Peity Chart</a></li>
+                    <li><a href="{{asset('admin/charts-morris.html">Morris Chart</a></li>
+                    <li><a href="{{asset('admin/charts-chartist.html">Chartist Chart</a></li>
+                    <li><a href="{{asset('admin/charts-chartjs.html">Chartjs Chart</a></li>
+                    <li><a href="{{asset('admin/charts-flot.html">Flot Chart</a></li>
+                    <li><a href="{{asset('admin/charts-c3.html">C3 Chart</a></li>
+                    <li><a href="{{asset('admin/charts-sparkline.html">Sparkline Chart</a></li>
+                    <li><a href="{{asset('admin/charts-other.html">Jquery Knob Chart</a></li>
+                    <li><a href="{{asset('admin/charts-peity.html">Peity Chart</a></li>
                 </ul>
             </li>
             <li class="has_sub">
-                <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-format-list-bulleted-type"></i><span> Tables <span class="pull-right"><i class="mdi mdi-chevron-right"></i></span> </span></a>
+                <a href="{{asset('admin/javascript:void(0);" class="waves-effect"><i class="mdi mdi-format-list-bulleted-type"></i><span> Tables <span class="pull-right"><i class="mdi mdi-chevron-right"></i></span> </span></a>
                 <ul class="list-unstyled">
-                    <li><a href="tables-basic.html">Basic Tables</a></li>
-                    <li><a href="tables-datatable.html">Data Table</a></li>
-                    <li><a href="tables-responsive.html">Responsive Table</a></li>
-                    <li><a href="tables-editable.html">Editable Table</a></li>
+                    <li><a href="{{asset('admin/tables-basic.html">Basic Tables</a></li>
+                    <li><a href="{{asset('admin/tables-datatable.html">Data Table</a></li>
+                    <li><a href="{{asset('admin/tables-responsive.html">Responsive Table</a></li>
+                    <li><a href="{{asset('admin/tables-editable.html">Editable Table</a></li>
                 </ul>
             </li>
             <li class="has_sub">
-                <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-album"></i> <span> Icons  <span class="pull-right"><i class="mdi mdi-chevron-right"></i></span></span> </a>
+                <a href="{{asset('admin/javascript:void(0);" class="waves-effect"><i class="mdi mdi-album"></i> <span> Icons  <span class="pull-right"><i class="mdi mdi-chevron-right"></i></span></span> </a>
                 <ul class="list-unstyled">
-                    <li><a href="icons-material.html">Material Design</a></li>
-                    <li><a href="icons-ion.html">Ion Icons</a></li>
-                    <li><a href="icons-fontawesome.html">Font Awesome</a></li>
-                    <li><a href="icons-themify.html">Themify Icons</a></li>
-                    <li><a href="icons-dripicons.html">Dripicons</a></li>
-                    <li><a href="icons-typicons.html">Typicons Icons</a></li>
-                    <li><a href="icons-weather.html">Weather Icons</a></li>
-                    <li><a href="icons-mobirise.html">Mobirise Icons</a></li>
+                    <li><a href="{{asset('admin/icons-material.html">Material Design</a></li>
+                    <li><a href="{{asset('admin/icons-ion.html">Ion Icons</a></li>
+                    <li><a href="{{asset('admin/icons-fontawesome.html">Font Awesome</a></li>
+                    <li><a href="{{asset('admin/icons-themify.html">Themify Icons</a></li>
+                    <li><a href="{{asset('admin/icons-dripicons.html">Dripicons</a></li>
+                    <li><a href="{{asset('admin/icons-typicons.html">Typicons Icons</a></li>
+                    <li><a href="{{asset('admin/icons-weather.html">Weather Icons</a></li>
+                    <li><a href="{{asset('admin/icons-mobirise.html">Mobirise Icons</a></li>
                 </ul>
             </li>
             <li class="has_sub">
-                <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-google-maps"></i><span> Maps <span class="badge badge-pill badge-danger pull-right">2</span> </span></a>
+                <a href="{{asset('admin/javascript:void(0);" class="waves-effect"><i class="mdi mdi-google-maps"></i><span> Maps <span class="badge badge-pill badge-danger pull-right">2</span> </span></a>
                 <ul class="list-unstyled">
-                    <li><a href="maps-google.html"> Google Map</a></li>
-                    <li><a href="maps-vector.html"> Vector Map</a></li>
+                    <li><a href="{{asset('admin/maps-google.html"> Google Map</a></li>
+                    <li><a href="{{asset('admin/maps-vector.html"> Vector Map</a></li>
                 </ul>
             </li>
             <li class="menu-title">Extras</li>
             <li class="has_sub">
-                <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-account-location"></i><span> Authentication <span class="pull-right"><i class="mdi mdi-chevron-right"></i></span> </span></a>
+                <a href="{{asset('admin/javascript:void(0);" class="waves-effect"><i class="mdi mdi-account-location"></i><span> Authentication <span class="pull-right"><i class="mdi mdi-chevron-right"></i></span> </span></a>
                 <ul class="list-unstyled">
-                    <li><a href="pages-login.html">Login</a></li>
-                    <li><a href="pages-register.html">Register</a></li>
-                    <li><a href="pages-recoverpw.html">Recover Password</a></li>
-                    <li><a href="pages-lock-screen.html">Lock Screen</a></li>
-                    <li><a href="pages-login-2.html">Login 2</a></li>
-                    <li><a href="pages-register-2.html">Register 2</a></li>
-                    <li><a href="pages-recoverpw-2.html">Recover Password 2</a></li>
-                    <li><a href="pages-lock-screen-2.html">Lock Screen 2</a></li>
+                    <li><a href="{{asset('admin/pages-login.html">Login</a></li>
+                    <li><a href="{{asset('admin/pages-register.html">Register</a></li>
+                    <li><a href="{{asset('admin/pages-recoverpw.html">Recover Password</a></li>
+                    <li><a href="{{asset('admin/pages-lock-screen.html">Lock Screen</a></li>
+                    <li><a href="{{asset('admin/pages-login-2.html">Login 2</a></li>
+                    <li><a href="{{asset('admin/pages-register-2.html">Register 2</a></li>
+                    <li><a href="{{asset('admin/pages-recoverpw-2.html">Recover Password 2</a></li>
+                    <li><a href="{{asset('admin/pages-lock-screen-2.html">Lock Screen 2</a></li>
                 </ul>
             </li>
             <li class="has_sub">
-                <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-google-pages"></i><span> Extra Pages <span class="pull-right"><i class="mdi mdi-chevron-right"></i></span> </span></a>
+                <a href="{{asset('admin/javascript:void(0);" class="waves-effect"><i class="mdi mdi-google-pages"></i><span> Extra Pages <span class="pull-right"><i class="mdi mdi-chevron-right"></i></span> </span></a>
                 <ul class="list-unstyled">
-                    <li><a href="pages-timeline.html">Timeline</a></li>
-                    <li><a href="pages-invoice.html">Invoice</a></li>
-                    <li><a href="pages-directory.html">Directory</a></li>
-                    <li><a href="pages-blank.html">Blank Page</a></li>
-                    <li><a href="pages-404.html">Error 404</a></li>
-                    <li><a href="pages-500.html">Error 500</a></li>
-                    <li><a href="pages-pricing.html">Pricing</a></li>
-                    <li><a href="pages-gallery.html">Gallery</a></li>
-                    <li><a href="pages-maintenance.html">Maintenance</a></li>
-                    <li><a href="pages-coming-soon.html">Coming Soon</a></li>
+                    <li><a href="{{asset('admin/pages-timeline.html">Timeline</a></li>
+                    <li><a href="{{asset('admin/pages-invoice.html">Invoice</a></li>
+                    <li><a href="{{asset('admin/pages-directory.html">Directory</a></li>
+                    <li><a href="{{asset('admin/pages-blank.html">Blank Page</a></li>
+                    <li><a href="{{asset('admin/pages-404.html">Error 404</a></li>
+                    <li><a href="{{asset('admin/pages-500.html">Error 500</a></li>
+                    <li><a href="{{asset('admin/pages-pricing.html">Pricing</a></li>
+                    <li><a href="{{asset('admin/pages-gallery.html">Gallery</a></li>
+                    <li><a href="{{asset('admin/pages-maintenance.html">Maintenance</a></li>
+                    <li><a href="{{asset('admin/pages-coming-soon.html">Coming Soon</a></li>
                 </ul>
             </li>
             <li class="has_sub">
-                <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-cart-outline"></i><span> Ecommerce <span class="pull-right"><i class="mdi mdi-chevron-right"></i></span> </span></a>
+                <a href="{{asset('admin/javascript:void(0);" class="waves-effect"><i class="mdi mdi-cart-outline"></i><span> Ecommerce <span class="pull-right"><i class="mdi mdi-chevron-right"></i></span> </span></a>
                 <ul class="list-unstyled">
-                    <li><a href="ecommerce-product-list.html">Product List</a></li>
-                    <li><a href="ecommerce-product-grid.html">Product Grid</a></li>
-                    <li><a href="ecommerce-order-history.html">Order History</a></li>
-                    <li><a href="ecommerce-customers.html">Customers</a></li>
-                    <li><a href="ecommerce-product-edit.html">Product Edit</a></li>
+                    <li><a href="{{asset('admin/ecommerce-product-list.html">Product List</a></li>
+                    <li><a href="{{asset('admin/ecommerce-product-grid.html">Product Grid</a></li>
+                    <li><a href="{{asset('admin/ecommerce-order-history.html">Order History</a></li>
+                    <li><a href="{{asset('admin/ecommerce-customers.html">Customers</a></li>
+                    <li><a href="{{asset('admin/ecommerce-product-edit.html">Product Edit</a></li>
                 </ul>
             </li>
             <li>
-                <a href="#" class="waves-effect" ><i class="mdi mdi-airplane"></i><span> Front End </span></a>
+                <a href="{{asset('admin/#" class="waves-effect" ><i class="mdi mdi-airplane"></i><span> Front End </span></a>
             </li>
             <li class="has_sub">
-                <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-flask-outline"></i><span> Email Templates <span class="pull-right"><i class="mdi mdi-chevron-right"></i></span> </span></a>
+                <a href="{{asset('admin/javascript:void(0);" class="waves-effect"><i class="mdi mdi-flask-outline"></i><span> Email Templates <span class="pull-right"><i class="mdi mdi-chevron-right"></i></span> </span></a>
                 <ul class="list-unstyled">
-                    <li><a href="email-templates-basic.html">Basic Action Email</a></li>
-                    <li><a href="email-templates-alert.html">Alert Email</a></li>
-                    <li><a href="email-templates-billing.html">Billing Email</a></li>
+                    <li><a href="{{asset('admin/email-templates-basic.html">Basic Action Email</a></li>
+                    <li><a href="{{asset('admin/email-templates-alert.html">Alert Email</a></li>
+                    <li><a href="{{asset('admin/email-templates-billing.html">Billing Email</a></li>
                 </ul>
             </li>
             <li class="menu-title">Help & Support</li>
             <li>
-                <a href="faq.html" class="waves-effect"><i class="mdi mdi-help-circle"></i><span> FAQ </span></a>
+                <a href="{{asset('admin/faq.html" class="waves-effect"><i class="mdi mdi-help-circle"></i><span> FAQ </span></a>
             </li>
             <li>
-                <a href="contact.html" class="waves-effect"><i class="mdi mdi-headset"></i><span> Contact <span class="badge badge-pill badge-warning pull-right">3</span> </span></a>
+                <a href="{{asset('admin/contact.html" class="waves-effect"><i class="mdi mdi-headset"></i><span> Contact <span class="badge badge-pill badge-warning pull-right">3</span> </span></a>
             </li>
             <li>
-                <a href="#" class="waves-effect"><i class="mdi mdi-file-document-box"></i><span> Documentation </span></a>
+                <a href="{{asset('admin/#" class="waves-effect"><i class="mdi mdi-file-document-box"></i><span> Documentation </span></a>
             </li>
         </ul>
     </div>
@@ -226,7 +225,7 @@
     <div class="search-wrap" id="search-wrap">
         <div class="search-bar">
             <input class="search-input" type="search" placeholder="Search" />
-            <a href="#" class="close-search toggle-search" data-target="#search-wrap">
+            <a href="{{asset('admin/#" class="close-search toggle-search" data-target="#search-wrap">
                 <i class="mdi mdi-close-circle"></i>
             </a>
         </div>
@@ -235,33 +234,33 @@
     <ul class="list-inline float-right mb-0">
         <!-- Search -->
         <li class="list-inline-item dropdown notification-list">
-            <a class="nav-link waves-effect toggle-search" href="#"  data-target="#search-wrap">
+            <a class="nav-link waves-effect toggle-search" href="{{asset('admin/#"  data-target="#search-wrap">
                 <i class="mdi mdi-magnify noti-icon"></i>
             </a>
         </li>
         <!-- Fullscreen -->
         <li class="list-inline-item dropdown notification-list hidden-xs-down">
-            <a class="nav-link waves-effect" href="#" id="btn-fullscreen">
+            <a class="nav-link waves-effect" href="{{asset('admin/#" id="btn-fullscreen">
                 <i class="mdi mdi-fullscreen noti-icon"></i>
             </a>
         </li>
         <!-- language-->
         <li class="list-inline-item dropdown notification-list hidden-xs-down">
-            <a class="nav-link dropdown-toggle arrow-none waves-effect text-muted" data-toggle="dropdown" href="#" role="button"
+            <a class="nav-link dropdown-toggle arrow-none waves-effect text-muted" data-toggle="dropdown" href="{{asset('admin/#" role="button"
                aria-haspopup="false" aria-expanded="false">
                 English <img src="assets/images/flags/us_flag.jpg" class="ml-2" height="16" alt=""/>
             </a>
             <div class="dropdown-menu dropdown-menu-right language-switch">
-                <a class="dropdown-item" href="#"><img src="assets/images/flags/germany_flag.jpg" alt="" height="16"/><span> German </span></a>
-                <a class="dropdown-item" href="#"><img src="assets/images/flags/italy_flag.jpg" alt="" height="16"/><span> Italian </span></a>
-                <a class="dropdown-item" href="#"><img src="assets/images/flags/french_flag.jpg" alt="" height="16"/><span> French </span></a>
-                <a class="dropdown-item" href="#"><img src="assets/images/flags/spain_flag.jpg" alt="" height="16"/><span> Spanish </span></a>
-                <a class="dropdown-item" href="#"><img src="assets/images/flags/russia_flag.jpg" alt="" height="16"/><span> Russian </span></a>
+                <a class="dropdown-item" href="{{asset('admin/#"><img src="assets/images/flags/germany_flag.jpg" alt="" height="16"/><span> German </span></a>
+                <a class="dropdown-item" href="{{asset('admin/#"><img src="assets/images/flags/italy_flag.jpg" alt="" height="16"/><span> Italian </span></a>
+                <a class="dropdown-item" href="{{asset('admin/#"><img src="assets/images/flags/french_flag.jpg" alt="" height="16"/><span> French </span></a>
+                <a class="dropdown-item" href="{{asset('admin/#"><img src="assets/images/flags/spain_flag.jpg" alt="" height="16"/><span> Spanish </span></a>
+                <a class="dropdown-item" href="{{asset('admin/#"><img src="assets/images/flags/russia_flag.jpg" alt="" height="16"/><span> Russian </span></a>
             </div>
         </li>
         <!-- notification-->
         <li class="list-inline-item dropdown notification-list">
-            <a class="nav-link dropdown-toggle arrow-none waves-effect" data-toggle="dropdown" href="#" role="button"
+            <a class="nav-link dropdown-toggle arrow-none waves-effect" data-toggle="dropdown" href="{{asset('admin/#" role="button"
                aria-haspopup="false" aria-expanded="false">
                 <i class="ion-ios7-bell noti-icon"></i>
                 <span class="badge badge-danger noti-icon-badge">3</span>
@@ -272,40 +271,40 @@
                     <h5>Notification (3)</h5>
                 </div>
                 <!-- item-->
-                <a href="javascript:void(0);" class="dropdown-item notify-item active">
+                <a href="{{asset('admin/javascript:void(0);" class="dropdown-item notify-item active">
                     <div class="notify-icon bg-success"><i class="mdi mdi-cart-outline"></i></div>
                     <p class="notify-details"><b>Your order is placed</b><small class="text-muted">Dummy text of the printing and typesetting industry.</small></p>
                 </a>
                 <!-- item-->
-                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                <a href="{{asset('admin/javascript:void(0);" class="dropdown-item notify-item">
                     <div class="notify-icon bg-warning"><i class="mdi mdi-message"></i></div>
                     <p class="notify-details"><b>New Message received</b><small class="text-muted">You have 87 unread messages</small></p>
                 </a>
                 <!-- item-->
-                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                <a href="{{asset('admin/javascript:void(0);" class="dropdown-item notify-item">
                     <div class="notify-icon bg-info"><i class="mdi mdi-martini"></i></div>
                     <p class="notify-details"><b>Your item is shipped</b><small class="text-muted">It is a long established fact that a reader will</small></p>
                 </a>
 
                 <!-- All-->
-                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                <a href="{{asset('admin/javascript:void(0);" class="dropdown-item notify-item">
                     View All
                 </a>
             </div>
         </li>
         <!-- User-->
         <li class="list-inline-item dropdown notification-list">
-            <a class="nav-link dropdown-toggle arrow-none waves-effect nav-user" data-toggle="dropdown" href="#" role="button"
+            <a class="nav-link dropdown-toggle arrow-none waves-effect nav-user" data-toggle="dropdown" href="{{asset('admin/#" role="button"
                aria-haspopup="false" aria-expanded="false">
                 <img src="assets/images/users/avatar-1.jpg" alt="user" class="rounded-circle">
             </a>
             <div class="dropdown-menu dropdown-menu-right profile-dropdown ">
-                <a class="dropdown-item" href="#"><i class="dripicons-user text-muted"></i> Profile</a>
-                <a class="dropdown-item" href="#"><i class="dripicons-wallet text-muted"></i> My Wallet</a>
-                <a class="dropdown-item" href="#"><span class="badge badge-success pull-right m-t-5">5</span><i class="dripicons-gear text-muted"></i> Settings</a>
-                <a class="dropdown-item" href="#"><i class="dripicons-lock text-muted"></i> Lock screen</a>
+                <a class="dropdown-item" href="{{asset('admin/#"><i class="dripicons-user text-muted"></i> Profile</a>
+                <a class="dropdown-item" href="{{asset('admin/#"><i class="dripicons-wallet text-muted"></i> My Wallet</a>
+                <a class="dropdown-item" href="{{asset('admin/#"><span class="badge badge-success pull-right m-t-5">5</span><i class="dripicons-gear text-muted"></i> Settings</a>
+                <a class="dropdown-item" href="{{asset('admin/#"><i class="dripicons-lock text-muted"></i> Lock screen</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#"><i class="dripicons-exit text-muted"></i> Logout</a>
+                <a class="dropdown-item" href="{{asset('admin/#"><i class="dripicons-exit text-muted"></i> Logout</a>
             </div>
         </li>
     </ul>
@@ -451,7 +450,7 @@
                                             <h4 class="mt-0 m-b-15 header-title">Latest Messages</h4>
 
                                             <div class="inbox-widget">
-                                                <a href="#">
+                                                <a href="{{asset('admin/#">
                                                     <div class="inbox-item">
                                                         <div class="inbox-item-img"><img src="assets/images/users/avatar-1.jpg" class="rounded-circle" alt=""></div>
                                                         <p class="inbox-item-author">Didier Charpentier</p>
@@ -459,7 +458,7 @@
                                                         <p class="inbox-item-date">13:40 PM</p>
                                                     </div>
                                                 </a>
-                                                <a href="#">
+                                                <a href="{{asset('admin/#">
                                                     <div class="inbox-item">
                                                         <div class="inbox-item-img"><img src="assets/images/users/avatar-2.jpg" class="rounded-circle" alt=""></div>
                                                         <p class="inbox-item-author">Sacripant Laderoute</p>
@@ -467,7 +466,7 @@
                                                         <p class="inbox-item-date">13:34 PM</p>
                                                     </div>
                                                 </a>
-                                                <a href="#">
+                                                <a href="{{asset('admin/#">
                                                     <div class="inbox-item">
                                                         <div class="inbox-item-img"><img src="assets/images/users/avatar-3.jpg" class="rounded-circle" alt=""></div>
                                                         <p class="inbox-item-author">Huon Chalifour</p>
@@ -475,7 +474,7 @@
                                                         <p class="inbox-item-date">13:17 PM</p>
                                                     </div>
                                                 </a>
-                                                <a href="#">
+                                                <a href="{{asset('admin/#">
                                                     <div class="inbox-item">
                                                         <div class="inbox-item-img"><img src="assets/images/users/avatar-4.jpg" class="rounded-circle" alt=""></div>
                                                         <p class="inbox-item-author">Paien Barrientos</p>
@@ -483,7 +482,7 @@
                                                         <p class="inbox-item-date">12:20 PM</p>
                                                     </div>
                                                 </a>
-                                                <a href="#">
+                                                <a href="{{asset('admin/#">
                                                     <div class="inbox-item">
                                                         <div class="inbox-item-img"><img src="assets/images/users/avatar-5.jpg" class="rounded-circle" alt=""></div>
                                                         <p class="inbox-item-author">Aubrey St-Jean</p>
@@ -491,7 +490,7 @@
                                                         <p class="inbox-item-date">10:15 AM</p>
                                                     </div>
                                                 </a>
-                                                <a href="#">
+                                                <a href="{{asset('admin/#">
                                                     <div class="inbox-item">
                                                         <div class="inbox-item-img"><img src="assets/images/users/avatar-6.jpg" class="rounded-circle" alt=""></div>
                                                         <p class="inbox-item-author">Maurice Monty</p>
@@ -501,7 +500,7 @@
                                                 </a>
 
                                                 <div class="text-center m-t-15">
-                                                    <a href="#" class="btn btn-sm btn-primary waves-light waves-effect">Load More</a>
+                                                    <a href="{{asset('admin/#" class="btn btn-sm btn-primary waves-light waves-effect">Load More</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -541,7 +540,7 @@
                                             </ol>
 
                                             <div class="text-center">
-                                                <a href="#" class="btn btn-sm btn-primary">Load More</a>
+                                                <a href="{{asset('admin/#" class="btn btn-sm btn-primary">Load More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -559,16 +558,16 @@
 
                                                     <ul class="social-links list-inline mb-0">
                                                         <li class="list-inline-item">
-                                                            <a title="" data-placement="top" data-toggle="tooltip" class="tooltips" href="#" data-original-title="Facebook"><i class="fa fa-facebook"></i></a>
+                                                            <a title="" data-placement="top" data-toggle="tooltip" class="tooltips" href="{{asset('admin/#" data-original-title="Facebook"><i class="fa fa-facebook"></i></a>
                                                         </li>
                                                         <li class="list-inline-item">
-                                                            <a title="" data-placement="top" data-toggle="tooltip" class="tooltips" href="#" data-original-title="Twitter"><i class="fa fa-twitter"></i></a>
+                                                            <a title="" data-placement="top" data-toggle="tooltip" class="tooltips" href="{{asset('admin/#" data-original-title="Twitter"><i class="fa fa-twitter"></i></a>
                                                         </li>
                                                         <li class="list-inline-item">
-                                                            <a title="" data-placement="top" data-toggle="tooltip" class="tooltips" href="#" data-original-title="1234567890"><i class="fa fa-phone"></i></a>
+                                                            <a title="" data-placement="top" data-toggle="tooltip" class="tooltips" href="{{asset('admin/#" data-original-title="1234567890"><i class="fa fa-phone"></i></a>
                                                         </li>
                                                         <li class="list-inline-item">
-                                                            <a title="" data-placement="top" data-toggle="tooltip" class="tooltips" href="#" data-original-title="@skypename"><i class="fa fa-skype"></i></a>
+                                                            <a title="" data-placement="top" data-toggle="tooltip" class="tooltips" href="{{asset('admin/#" data-original-title="@skypename"><i class="fa fa-skype"></i></a>
                                                         </li>
                                                     </ul>
 
@@ -598,16 +597,16 @@
 
                                                     <ul class="social-links list-inline mb-0">
                                                         <li class="list-inline-item">
-                                                            <a title="" data-placement="top" data-toggle="tooltip" class="tooltips" href="#" data-original-title="Facebook"><i class="fa fa-facebook"></i></a>
+                                                            <a title="" data-placement="top" data-toggle="tooltip" class="tooltips" href="{{asset('admin/#" data-original-title="Facebook"><i class="fa fa-facebook"></i></a>
                                                         </li>
                                                         <li class="list-inline-item">
-                                                            <a title="" data-placement="top" data-toggle="tooltip" class="tooltips" href="#" data-original-title="Twitter"><i class="fa fa-twitter"></i></a>
+                                                            <a title="" data-placement="top" data-toggle="tooltip" class="tooltips" href="{{asset('admin/#" data-original-title="Twitter"><i class="fa fa-twitter"></i></a>
                                                         </li>
                                                         <li class="list-inline-item">
-                                                            <a title="" data-placement="top" data-toggle="tooltip" class="tooltips" href="#" data-original-title="1234567890"><i class="fa fa-phone"></i></a>
+                                                            <a title="" data-placement="top" data-toggle="tooltip" class="tooltips" href="{{asset('admin/#" data-original-title="1234567890"><i class="fa fa-phone"></i></a>
                                                         </li>
                                                         <li class="list-inline-item">
-                                                            <a title="" data-placement="top" data-toggle="tooltip" class="tooltips" href="#" data-original-title="@skypename"><i class="fa fa-skype"></i></a>
+                                                            <a title="" data-placement="top" data-toggle="tooltip" class="tooltips" href="{{asset('admin/#" data-original-title="@skypename"><i class="fa fa-skype"></i></a>
                                                         </li>
                                                     </ul>
                                                 </div>
